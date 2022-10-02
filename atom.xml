@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ShiYangのBlog</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-10-01T23:50:45.300Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Alex Shi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FirstArticle</title>
+    <link href="http://example.com/2022/10/01/FirstArticle/"/>
+    <id>http://example.com/2022/10/01/FirstArticle/</id>
+    <published>2022-09-30T18:55:45.000Z</published>
+    <updated>2022-10-01T23:50:45.300Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;Hello World by C program language&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="test" scheme="http://example.com/categories/test/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
