@@ -6,7 +6,7 @@
   <link href="https://www.joverflow.cn/atom.xml" rel="self"/>
   
   <link href="https://www.joverflow.cn/"/>
-  <updated>2022-10-26T14:56:55.269Z</updated>
+  <updated>2022-11-03T16:28:09.684Z</updated>
   <id>https://www.joverflow.cn/</id>
   
   <author>
@@ -17,14 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Set(test file)</title>
+    <title>测试文章</title>
     <link href="https://www.joverflow.cn/2022/10/06/Set/"/>
     <id>https://www.joverflow.cn/2022/10/06/Set/</id>
     <published>2022-10-06T14:08:43.000Z</published>
-    <updated>2022-10-26T14:56:55.269Z</updated>
+    <updated>2022-11-03T16:28:09.684Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Andy’s-First-Dictionary，-Uva-10815&quot;&gt;&lt;a href=&quot;#Andy’s-First-Dictionary，-Uva-10815&quot; class=&quot;headerlink&quot; title=&quot;Andy’s First Dictionary， Uva 10815&quot;&gt;&lt;/a&gt;&lt;strong&gt;Andy’s First Dictionary， Uva 10815&lt;/strong&gt;&lt;/h3&gt;&lt;h3 id=&quot;问题描述：&quot;&gt;&lt;a href=&quot;#问题描述：&quot; class=&quot;headerlink&quot; title=&quot;问题描述：&quot;&gt;&lt;/a&gt;问题描述：&lt;/h3&gt;&lt;p&gt;输入一个文本,找出所有不同的单词(连续的字母序列),按字典序从小到大输出。单&lt;br&gt;词不区分大小写。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;Andy’s-First-Dictionary，-Uva-10815&quot;&gt;&lt;a href=&quot;#Andy’s-First-Dictionary，-Uva-10815&quot; class=&quot;headerlink&quot; title=&quot;Andy’s First Dictionary， Uva 10815&quot;&gt;&lt;/a&gt;&lt;strong&gt;Andy’s First Dictionary， Uva 10815&lt;/strong&gt;&lt;/h3&gt;&lt;h3 id=&quot;Problem-Description：&quot;&gt;&lt;a href=&quot;#Problem-Description：&quot; class=&quot;headerlink&quot; title=&quot;Problem Description：&quot;&gt;&lt;/a&gt;Problem Description：&lt;/h3&gt;&lt;p&gt;输入一个文本,找出所有不同的单词(连续的字母序列),按字典序从小到大输出。单&lt;br&gt;词不区分大小写。&lt;/p&gt;</summary>
     
     
     
@@ -34,32 +34,6 @@
     <category term="C/C++" scheme="https://www.joverflow.cn/tags/C-C/"/>
     
     <category term="algorithm" scheme="https://www.joverflow.cn/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://www.joverflow.cn/2022/10/01/FirstArticle/"/>
-    <id>https://www.joverflow.cn/2022/10/01/FirstArticle/</id>
-    <published>2022-09-30T18:55:45.000Z</published>
-    <updated>2022-10-02T13:34:31.204Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Hello World by C program language&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="C/C++" scheme="https://www.joverflow.cn/categories/C-C/"/>
-    
-    
-    <category term="Blogtest" scheme="https://www.joverflow.cn/tags/Blogtest/"/>
     
   </entry>
   
