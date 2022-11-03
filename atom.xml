@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>AlexShi - code for fun</title>
   <icon>https://www.joverflow.cn/icon.png</icon>
-  <subtitle>less is more</subtitle>
+  
   <link href="https://www.joverflow.cn/atom.xml" rel="self"/>
   
   <link href="https://www.joverflow.cn/"/>
