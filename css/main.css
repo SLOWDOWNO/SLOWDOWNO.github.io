@@ -390,7 +390,7 @@ figure.highlight .table-container {
   background-image: linear-gradient(#fcfcfc, #eee);
   border: 1px solid #d5d5d5;
   border-radius: 3px;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   right: 4px;
   top: 8px;
 }
@@ -1145,7 +1145,7 @@ header.header {
 }
 .site-subtitle {
   color: #ddd;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   margin: 10px 0;
 }
 .use-motion .site-title,
@@ -1214,7 +1214,7 @@ header.header {
 .menu-item a {
   border-bottom: 0;
   display: block;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   transition: border-color 0.2s ease-in-out;
 }
 .menu-item a:hover,
@@ -1284,11 +1284,11 @@ header.header {
 }
 .site-description {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.75em;
   margin-top: 0;
 }
 .links-of-author a {
-  font-size: 0.8125em;
+  font-size: 0.75em;
 }
 .sidebar .sidebar-button:not(:first-child) {
   margin-top: 15px;
@@ -1313,7 +1313,7 @@ header.header {
   margin-right: 5px;
 }
 .links-of-blogroll {
-  font-size: 0.8125em;
+  font-size: 0.75em;
 }
 .links-of-blogroll-title {
   font-size: 0.875em;
@@ -1510,7 +1510,7 @@ header.header {
 }
 .site-state-item-name {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 0.75em;
 }
 .footer {
   color: #999;
@@ -1767,7 +1767,7 @@ header.header {
   border: 1px solid #fff;
   left: -6px;
   position: absolute;
-  top: 0.75em;
+  top: 0.625em;
   transition: background 0.2s ease-in-out;
   border-radius: 50%;
   content: ' ';
@@ -1782,7 +1782,7 @@ header.header {
 }
 .posts-collapse .post-content .post-meta-container {
   display: inline;
-  font-size: 0.75em;
+  font-size: 0.625em;
   margin-right: 10px;
 }
 .posts-collapse .post-content .post-title {
@@ -1994,7 +1994,7 @@ header.header {
 .posts-expand .post-meta-container {
   color: #999;
   font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.625em;
   margin-top: 3px;
 }
 .posts-expand .post-meta-container .post-description {
@@ -2046,7 +2046,7 @@ header.header {
   top: 2px;
 }
 .post-nav-item .fa {
-  font-size: 0.75em;
+  font-size: 0.625em;
 }
 .post-nav-item:first-child .fa {
   margin-right: 5px;
@@ -2084,7 +2084,7 @@ header.header {
 }
 .post-tags a {
   display: inline-block;
-  font-size: 0.8125em;
+  font-size: 0.75em;
 }
 .post-tags a:not(:last-child) {
   margin-right: 10px;
@@ -2325,7 +2325,7 @@ header.header {
   }
 }
 ul.breadcrumb {
-  font-size: 0.75em;
+  font-size: 0.625em;
   list-style: none;
   margin: 1em 0;
   padding: 0 2em;
