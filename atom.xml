@@ -6,7 +6,7 @@
   <link href="https://www.joverflow.cn/atom.xml" rel="self"/>
   
   <link href="https://www.joverflow.cn/"/>
-  <updated>2022-11-05T16:37:48.819Z</updated>
+  <updated>2022-11-05T16:40:41.311Z</updated>
   <id>https://www.joverflow.cn/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>递归初探1</title>
-    <link href="https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A21/"/>
-    <id>https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A21/</id>
+    <title>递归初探(1)</title>
+    <link href="https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A2(1)/"/>
+    <id>https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A2(1)/</id>
     <published>2022-11-04T14:48:57.000Z</published>
-    <updated>2022-11-05T16:37:48.819Z</updated>
+    <updated>2022-11-05T16:40:41.311Z</updated>
     
     
     <summary type="html">&lt;p&gt;递归是一种经典的算法思想，递归的应用十分广泛，如果没有递归，最重要的数据结构“树”就不存在，许多众所周知的排序算法（快速排序、合并排序）都使用递归，我们日常生活中的益智游戏比如“国际象棋”也使用递归，包括知名的Google PageRank算法，递归是它的支柱。所以理解递归至关重要。&lt;/p&gt;</summary>
