@@ -24,12 +24,12 @@
 <meta property="og:type" content="blog">
 <meta property="og:title" content="递归初探(1)">
 <meta property="og:url" content="https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A2-1/index.html">
-<meta property="og:site_name" content="AlexShi - code for fun">
+<meta property="og:site_name" content="Alex Shi&#39;s Personal Website">
 <meta property="og:description" content="递归是一种经典的算法思想，递归的应用十分广泛，如果没有递归，最重要的数据结构“树”就不存在，许多众所周知的排序算法（快速排序、合并排序）都使用递归，我们日常生活中的益智游戏比如“国际象棋”也使用递归，包括知名的Google PageRank算法，递归是它的支柱。所以理解递归至关重要。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.joverflow.cn/.cn//feibonaci.jpg">
 <meta property="article:published_time" content="2022-11-04T14:48:57.000Z">
-<meta property="article:modified_time" content="2022-11-04T15:05:03.753Z">
+<meta property="article:modified_time" content="2022-11-05T16:29:06.047Z">
 <meta property="article:author" content="Alex Shi">
 <meta property="article:tag" content="C&#x2F;C++">
 <meta property="article:tag" content="algorithm">
@@ -44,7 +44,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://www.joverflow.cn/2022/11/04/%E9%80%92%E5%BD%92%E5%88%9D%E6%8E%A2-1/","path":"2022/11/04/递归初探-1/","title":"递归初探(1)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>递归初探(1) | AlexShi - code for fun</title>
+<title>递归初探(1) | Alex Shi's Personal Website</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W419NL7HYY"></script>
   <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"G-W419NL7HYY","only_pageview":false}</script>
@@ -58,7 +58,7 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<link rel="alternate" href="/atom.xml" title="AlexShi - code for fun" type="application/atom+xml">
+<link rel="alternate" href="/atom.xml" title="Alex Shi's Personal Website" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -79,7 +79,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">AlexShi - code for fun</p>
+      <p class="site-title">Alex Shi's Personal Website</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -133,7 +133,7 @@
     <img class="site-author-image" itemprop="image" alt="Alex Shi"
       src="/images/author.jpg">
   <p class="site-author-name" itemprop="name">Alex Shi</p>
-  <div class="site-description" itemprop="description">less is more</div>
+  <div class="site-description" itemprop="description">面对命中注定的失败</div>
 </div>
 <div class="site-state-wrap site-overview-item animated">
   <nav class="site-state">
@@ -208,12 +208,12 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="AlexShi - code for fun">
-      <meta itemprop="description" content="less is more">
+      <meta itemprop="name" content="Alex Shi's Personal Website">
+      <meta itemprop="description" content="面对命中注定的失败">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="递归初探(1) | AlexShi - code for fun">
+      <meta itemprop="name" content="递归初探(1) | Alex Shi's Personal Website">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
@@ -228,9 +228,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-11-04 22:48:57 / 修改时间：23:05:03" itemprop="dateCreated datePublished" datetime="2022-11-04T22:48:57+08:00">2022-11-04</time>
+      <time title="创建时间：2022-11-04 22:48:57" itemprop="dateCreated datePublished" datetime="2022-11-04T22:48:57+08:00">2022-11-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-11-06 00:29:06" itemprop="dateModified" datetime="2022-11-06T00:29:06+08:00">2022-11-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -268,7 +274,7 @@
 <p>递归的正式定义如下：</p>
 <blockquote>
 <p>在数学和计算机科学中，递归指由一种（或多种）简单的基本情况定义的一类对象或方法，并规定其他所有情况都能被还原为其基本情况。</p>
-<p>—— from   <a target="_blank" rel="noopener" href="https://zh.m.wikipedia.org/zh-hans/%E9%80%92%E5%BD%92">wikipedia</a></p>
+<p>——  from   <a target="_blank" rel="noopener" href="https://zh.m.wikipedia.org/zh-hans/%E9%80%92%E5%BD%92">wikipedia</a></p>
 </blockquote>
 <h4 id="经典案例与递归函数"><a href="#经典案例与递归函数" class="headerlink" title="经典案例与递归函数"></a>经典案例与递归函数</h4><p><strong>斐波那契数列</strong>是典型的递归案例，为了说明这个案例，老人家还举了一个很形象的例子：<br>如果兔子在出生两个月后，就有繁殖能力，一对兔子每个月能生出一对小兔子来。假设所有兔子都不死，那么一年后可以繁殖多少对儿兔子呢？</p>
 <p>我们拿新出生的小兔子分析一下：第一个月小兔子没有繁殖能力，所以还是一对；两个月后，生下一对小兔子共有两对儿；三个月后，老兔子又生下一对儿，因为小兔子还没有繁殖能力，所以一共是三对儿。以此类推可列出下表：</p>
@@ -308,7 +314,7 @@
 </tbody></table>
 <p>第二行序列可以观察到十分明显的特点：前面相邻两项构成了后一项。</p>
 <p>我们用数学函数来表示就是：</p>
-<p><img src="/.cn//feibonaci.jpg" alt="pic"></p>
+<p><img src="/.cn//feibonaci.jpg"></p>
 <p>现在我们用递归函数来实现打印这个数列的前40项：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Fbi</span><span class="params">(<span class="type">int</span> i)</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (i &lt; <span class="number">2</span>)</span><br><span class="line">    </span><br><span class="line">        <span class="keyword">return</span> i == <span class="number">0</span> ? <span class="number">0</span> : <span class="number">1</span>;</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">Fbi</span>(i - <span class="number">1</span>) + <span class="built_in">Fib</span>(i - <span class="number">2</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> i;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">40</span>; i++)</span><br><span class="line"></span><br><span class="line">        cout &lt;&lt; <span class="built_in">Fbi</span>(i) &lt;&lt; <span class="string">&quot; &quot;</span> ;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
